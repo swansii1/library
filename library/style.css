@@ -1,0 +1,160 @@
+body {
+    width: 1440px;
+    margin: 0px;
+     }
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #0c0c0e;
+    height: 90px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin: 20px;
+}
+h1 {
+    font-family: forum;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+}
+.nav {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.svg {
+    margin: 33px 25px;
+}
+.welcome{
+    background-image: url(welcome-1440.jpg);
+}
+.gradient {
+    padding-top: 220px;
+    padding-bottom: 160px;
+    background-image: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.1) 100%);
+}
+.block_wel {
+    width: 600px;
+    height: 220px;
+    background-color: black;
+    color: white;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+ 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-bottom: 28px;
+    border-bottom: 1px solid black;
+}
+.display_slider{
+    display: flex;
+    gap: 25px;
+}
+.photo_slider{
+    width: 450px;
+    height: 560px;
+}
+p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+
+}
+#slider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radio {
+    margin-right: 1140px;
+}
+.form{
+    margin-left: 320px;
+    width: 600px;
+    
+}
+input{
+    margin: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+
+
+}
+label{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+}
+.fav {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+}
+.photo_book {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.book_1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    width: 590px;
+    height: 555px;
+    border: 1px solid #000000;
+}
+.book_photo {
+    width: 200px;
+    height: 300px;
+}
+.test {
+    width: 590px;
+    height: 555px;
+    border: 1px dotted rebeccapurple;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
