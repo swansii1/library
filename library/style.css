@@ -1,8 +1,10 @@
 body {
     width: 1440px;
     margin: 0px;
-     }
-
+}
+html {
+    scroll-behavior: smooth;
+}
 .header {
     color: white;
     display: flex;
@@ -217,14 +219,14 @@ label{
 }
 
 .rachel{
-position: relative;
-bottom: 50px;
-font-family: Inter;
-font-size: 15px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 2px;
-text-align: left;
+    position: relative;
+    bottom: 50px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
 }
 
 .menu_1{
