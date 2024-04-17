@@ -1,0 +1,573 @@
+body {
+    width: 1440px;
+    margin: 0px;
+     }
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #0c0c0e;
+    height: 90px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin: 20px;
+}
+h1 {
+    font-family: forum;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+}
+.nav {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.svg {
+    margin: 33px 25px;
+}
+.welcome{
+    background-image: url(welcome-1440.jpg);
+}
+.gradient {
+    padding-top: 220px;
+    padding-bottom: 160px;
+    background-image: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.1) 100%);
+}
+.block_wel {
+    width: 600px;
+    height: 220px;
+    background-color: black;
+    color: white;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.lib{
+    color: white;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+ }
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-bottom: 28px;
+}
+.podch {
+    height: 1px;
+    width: 50px;
+    border: 1px solid #0C0C0E;
+    background-color: #0C0C0E;
+    position: relative; 
+    bottom: 35px;
+    margin-left: 40px;
+}
+.display_slider{
+    display: flex;
+    gap: 25px;
+}
+.photo_slider{
+    width: 450px;
+    height: 560px;
+}
+p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+
+}
+#slider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radio {
+    margin-right: 1140px;
+}
+.form{
+    margin-left: 320px;
+    width: 600px;
+    
+}
+input{
+    margin: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+
+
+}
+label{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+}
+.about{
+    margin-left: 40px;
+}
+.fav {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+}
+
+.photo_book {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.book_1 {
+    position: relative;
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000000;
+}
+.book_photo{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    right: -35px;
+    bottom: 0px;
+}
+.main_1{
+    width: 1400px;
+}
+.staff{
+    width: 105px;
+    height: 40px;
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.podch_2{
+    height: 1px;
+    width: 60px;
+    border: 1px solid #BB945F;
+    background-color: #BB945F;
+    position: relative;
+    bottom: 20px;
+}
+.opis{
+    margin-left: 20px;
+}
+.heading{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 267%;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #000;
+    width: 170px;
+    height: 80px;
+}
+.story{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 335px;
+    height: 320px;
+}
+
+.rachel{
+position: relative;
+bottom: 50px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+}
+
+.menu_1{
+    width: 1400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.podch1{
+    height: 1px;
+    width: 50px;
+    border: 1px solid #0C0C0E;
+    background-color: #0C0C0E;
+    position: relative; 
+    bottom: 35px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 70px;
+}
+.p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    gap: 480px;
+}
+.menu_list{
+    width: 438px;
+    height: 520px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.cost {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.cost_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.coffee_tea{
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #BB945F;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    border: 1px solid #BB945F;
+    background-color: #BB945F;
+    position: relative; 
+    top: 47px;
+    right:30px
+}
+h4{
+    width: 300px;
+    height: 40px;
+}
+span{
+    width: 100px;
+    height: 1px;
+    border: 1px solid #BB945F;
+    background-color: #BB945F;
+}
+.contacts_info{
+    width: 1440px;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 420px;
+    gap: 30px;
+}
+.contact{
+    display: flex;
+    gap: 201px;
+}
+.map{
+    width: 666px;
+    height: 460px;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: -59px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0,5px;
+    text-align: center;
+    
+}
+.num_1{
+    margin-right: 30px;
+}
+.num_2{
+    width: 503px;
+    height: 380px;
+    margin-left: 40px;
+}
+.for_all{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#for{
+    position: relative;
+    right: 80px
+}
+.dir{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+.senior{
+    margin-right: 80px;
+}
+.card{
+    width: 1440px;
+    height: 614px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+#x{
+    position: relative;
+    left: 158px;
+}
+.style{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.flex_card{
+    display: flex;
+    gap: 344px;
+}
+.input{
+    width: 600px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_card{
+    width: 456px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.form_1{
+    border: 3px solid #BB945F;
+    width: 600px;
+    height: 387px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.form_2{
+    background-color: #BB945F;
+    width: 560px;
+    height: 282px;
+    margin: 20px 20px 92px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.input{
+    width: 520px;
+    height: 66px;
+    border-radius: 10px;
+    border: none;
+}
+.Brooklyn{
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 27px;
+}
+.input_1{
+    position: relative;
+    bottom: 30px;
+    right: 5px;
+}
+.button{
+    border: 1px solid #0c0c0e;
+    border-radius: 2px;
+    padding: 10px 40px;
+    width: 242px;
+    height: 44px;
+    background-color: white;
+    position: relative;
+    left: 150px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+.get{
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33.12px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    position: relative;
+    left: 145px;
+}
+.will{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: right;    
+}
+.up{
+    background-color: #fff;
+    width: 75px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.1px;
+    letter-spacing: 1px;
+}
+footer{
+    width: 1440px;
+    height: 250px;
+    background-color: #0C0C0E;
+    position: relative;
+    top: 290px;
+    color: white;
+}
+.wrapper{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.adress{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+}
+.mon{
+    text-align: right;
+    position: relative;
+    left: 33px;
+}
+.icon{
+    margin-left: 15px;
+    margin-top: -20px;
+}
+#mon{
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+}
+.long_line{
+    width: 1400px;
+    height: 0px;
+    border: 1px solid white;
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+.git{
+    display: flex;
+    justify-content: space-between;
+}
+.school{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.hub{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    left: 25px;
+}
+.years{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
