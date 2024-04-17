@@ -55,7 +55,17 @@ h1 {
     letter-spacing: 3px;
     text-align: center;
 }
- 
+.lib{
+    color: white;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+ }
 .main {
     display: flex;
     flex-direction: column;
